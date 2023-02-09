@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+    background-size: ;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    filter: brightness(0.95);
+}
+
+.title-boarding-pass {
+    padding: 20px;
+}
+
+.title-boarding-pass h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.bottom-boarding-pass {
+    padding: 20px;
+}
+
+.bottom-boarding-pass h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.85rem;
+    text-align: center;
+    line-height: 24px;
+}
+
+#boarding-pass {
+    width: 327px;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+}
+.card {
+    background-color: #fff;
+    padding: 24px 32px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.card + .card {
+    border-top: 1px dashed rgba(0, 0, 0, 0.32);
+}
+
+strong {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1rem;
+    font-color: rgba(0, 0, 0, 0.88);
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-color: rgba(0, 0, 0, 0.88);
+    font-weight: 500;
+
+}
+
+p {
+    font-size: 0.875rem;
+    font-color: rgba(0, 0, 0, 0.64);
+    font-weight: 400;
+}
+
+span {
+    font-size: 1rem;
+    font-color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 24px;
+    position: relative;
+}
+
+.date-ticket, .flight-destination, .airplane-seat{
+    text-align: right;
+}
+
+
+img.airplane-icon {
+    position: absolute;
+    margin: auto;
+    top: 65%;
+    bottom: 35%;
+    left: 45%;
+    right: 45%;
+    display: inline-block;
+}
+
+.infos-boarding {
+    margin-top: 12px;
+}
+
+.hours-boarding {
+    background-color: #633BBC;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-top: 5px!important;
+    border: none;
+   
+}
+
+.hours-boarding, .infos-boarding h2 {
+    margin-bottom: 12px;
+}
+
+
+.qr-code {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code img {
+    width: 85%;
+}
+
+.qr-code p {
+    margin-top: 8px;
+}
+
+.attencion-info {
+    text-align: center;
+    margin-top: 8px;
+}
+
